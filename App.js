@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Provider } from "react-redux";
 
 import ReactNativeReactQuery from "./components/Hooks/react-query-native";
-import {firebase} from '../market-place/config'
+import {firebase} from './config'
 import AllOffers from "./screens/AllOffers";
 import Login from "./screens/Login";
 import Signup from "./screens/Signup";
@@ -28,7 +28,7 @@ import Bag from "./screens/Bag";
 import HomeNav from "./screens/HomeNav";
 import Notifications from "./screens/Notifications";
 import { PreferencesContext } from "./context/ThemeContext";
-import store from '../market-place/redux/store/Store'
+import store from './redux/store/Store'
 
 
 import { CombinedDefaultTheme, CombinedDarkTheme } from "./theme";

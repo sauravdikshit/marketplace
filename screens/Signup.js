@@ -6,10 +6,8 @@ import FormField from "../components/Form/FormField";
 import { SPEC } from "../specifications/form-field-specs";
 import FormSubmit from "../components/Form/FormSubmit";
 import { ScrollView } from "react-native-gesture-handler";
-import { useTheme,  Text ,Button } from "react-native-paper";
-import logo from "../assets/logo.png";
-import icon from "../../market-place/assets/logo.png";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useTheme, Text, Button } from "react-native-paper";
+
 import { EMAIL_REGEX } from "../constants";
 import { firebase } from "../config";
 
