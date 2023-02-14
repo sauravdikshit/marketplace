@@ -20,6 +20,7 @@ import {
 import { useNavigation } from "@react-navigation/native";
 import { changeLanguage } from "../../redux/actions/Actions";
 import { useDispatch, useSelector } from "react-redux";
+
 import { translate } from "./Translate";
 
 export default function Language() {
@@ -71,15 +72,7 @@ export default function Language() {
 console.log("====================================");
       console.log(currentlanguage,language);
       console.log("====================================");
-  useEffect(() => {
-     
-       
-       
-    
-  
-  
-    
-  }, [currentlanguage])
+
   
 
   return (
