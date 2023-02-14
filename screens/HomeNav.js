@@ -60,6 +60,7 @@ const renderItem = ({ item }) => {
   return (
     <View className="mt-2">
       <Image
+      
         source={{ uri: item.url }}
         style={{
           justifyContent: "center",
@@ -371,7 +372,7 @@ export default function HomeNav() {
                 style={{ backgroundColor: theme.colors.cardcolor }}
               >
                 <Card.Cover
-                  className=" rounded-t-[10px] w-32 mx-2 "
+                  className=" rounded-t-[10px] w-32 mx-2 brightness-90"
                   theme={{ roundness: 1 }}
                   source={{
                     uri: imageProduct2,

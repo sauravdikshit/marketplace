@@ -27,6 +27,7 @@ import BuyAgain from "./screens/BuyAgain";
 import Bag from "./screens/Bag";
 import HomeNav from "./screens/HomeNav";
 import Notifications from "./screens/Notifications";
+import Language from "./screens/language/Language";
 import { PreferencesContext } from "./context/ThemeContext";
 import store from './redux/store/Store'
 
@@ -135,6 +136,7 @@ const App = () => {
        <Stack.Screen name="Bag" component={Bag} />
        <Stack.Screen name="HomeNav" component={HomeNav} />
        <Stack.Screen name="Notifications" component={Notifications}/>
+       <Stack.Screen name="Language" component={Language}/>
       </Stack.Navigator>
       </NavigationContainer>
       </QueryClientProvider>

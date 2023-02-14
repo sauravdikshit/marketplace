@@ -148,7 +148,8 @@ export default function Account() {
               >
                 Select Language
               </Text>
-              <IconAsw name="arrow-forward-ios" size={18} color="gray" />
+
+              <IconAsw  onPress={()=>{navigation.navigate("Language")}} name="arrow-forward-ios" size={18} color="gray" />
             </View>
             <Divider />
             <View className="flex-row justify-between m-4 mt-4 ">
