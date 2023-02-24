@@ -55,7 +55,7 @@ export default function BagProduct({item,onRemoveFromBag }) {
               {item.title}
             </Text>
             <View className="flex-row space-x-4">
-              <Text className=" text-base font-bold">₹ {item.price*count}</Text>
+              <Text className=" text-base font-bold">₹ {item.price}</Text>
               <Text className="text-base text-[#006e00]">60% off</Text>
             </View>
             <Text className="text-md">Free delivery</Text>

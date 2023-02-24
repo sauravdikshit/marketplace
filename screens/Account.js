@@ -82,7 +82,7 @@ export default function Account() {
         />
       </Appbar>
       <ScrollView className="px-2">
-        <View className="mt-2">
+        <View className="mt-2 ">
           <Text
             className="px-2"
             style={{ fontFamily: "Poppins_600SemiBold", fontSize: 16 }}
@@ -113,7 +113,7 @@ export default function Account() {
           >
             <View className="flex-row justify-between m-4  mt-4 ">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[3].english
@@ -145,7 +145,7 @@ export default function Account() {
 
             <View className="flex-row justify-between m-4 mt-4 ">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[4].english
@@ -198,7 +198,7 @@ export default function Account() {
           >
             <View className="flex-row justify-between m-4  mt-4">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14}}
               >
                 {language == "English"
                   ? translate[6].english
@@ -221,7 +221,7 @@ export default function Account() {
             <Divider />
             <View className="flex-row justify-between m-4 mt-4">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[7].english
@@ -251,7 +251,7 @@ export default function Account() {
             <Divider />
             <View className="flex-row justify-between m-4 mt-4">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[8].english
@@ -282,7 +282,7 @@ export default function Account() {
             <Divider />
             <View className="flex-row justify-between m-4 mt-4 ">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[9].english
@@ -335,7 +335,7 @@ export default function Account() {
           >
             <View className="flex-row justify-between m-4 mt-4">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[11].english
@@ -365,7 +365,7 @@ export default function Account() {
             <Divider />
             <View className="flex-row justify-between m-4 mt-4 ">
               <Text
-                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 16 }}
+                style={{ fontFamily: "Quicksand_600SemiBold", fontSize: 14 }}
               >
                 {language == "English"
                   ? translate[12].english
